@@ -1,4 +1,24 @@
 /* General setup */
+@font-face {
+    font-family: 'alex_brushregular';
+    src: url('font/alexbrush-regular-webfont.woff2') format('woff2'),
+         url('font/alexbrush-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'quicksandregular';
+    src: url('font/quicksand-regular-webfont.woff2') format('woff2'),
+         url('font/quicksand-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
 
 html {
     font-size: 10px;
@@ -26,4 +46,9 @@ html {
     font-size: 1.4rem;
     line-height: 1.6;
     word-spacing: 0.6rem;
+    font-family: 'alex_brushregular', sans-serif;
+  }
+
+  h1,h2{
+    font-family: 'quicksandregular', sans-serif;
   }
