@@ -21,7 +21,7 @@
 
 
 html {
-    font-size: 10px;
+    font-size: 20px;
     margin: 0;
     font-family: sans-serif;
   }
@@ -46,7 +46,7 @@ html {
     font-size: 1.4rem;
     line-height: 1.6;
     word-spacing: 0.6rem;
-    font-family: 'quicksandregular', sans-serif;
+    font-family: 'Micro 5 Charted', sans-serif;
     line-height: 20px;
   }
 
@@ -54,5 +54,6 @@ html {
     font-family: 'alex_brushregular', sans-serif;
     letter-spacing: 10px;
     font-style: italic;
+    
   
   }
