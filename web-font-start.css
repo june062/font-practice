@@ -1,8 +1,8 @@
 /* General setup */
 @font-face {
     font-family: 'alex_brushregular';
-    src: url('font/alexbrush-regular-webfont.woff2') format('woff2'),
-         url('font/alexbrush-regular-webfont.woff') format('woff');
+    src: url('alexbrush-regular-webfont.woff2') format('woff2'),
+         url('alexbrush-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -10,8 +10,8 @@
 
 @font-face {
     font-family: 'quicksandregular';
-    src: url('font/quicksand-regular-webfont.woff2') format('woff2'),
-         url('font/quicksand-regular-webfont.woff') format('woff');
+    src: url('quicksand-regular-webfont.woff2') format('woff2'),
+         url('quicksand-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -46,9 +46,13 @@ html {
     font-size: 1.4rem;
     line-height: 1.6;
     word-spacing: 0.6rem;
-    font-family: 'alex_brushregular', sans-serif;
+    font-family: 'quicksandregular', sans-serif;
+    line-height: 20px;
   }
 
   h1,h2{
-    font-family: 'quicksandregular', sans-serif;
+    font-family: 'alex_brushregular', sans-serif;
+    letter-spacing: 10px;
+    font-style: italic;
+  
   }
